@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>XToolkit</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>xtest</Shortcut>
+      <_Description>Create a XToolkit xUnit Test Method</_Description>
+      <TemplateType>Expansion</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="UnitUnderTest">
+        <Default>UnitUnderTest</Default>
+      </Variable>
+      <Variable name="StateUnderTest">
+        <Default>StateUnderTest</Default>
+      </Variable>
+      <Variable name="ExpectedResult">
+        <Default>ExpectedResult</Default>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[[Fact]
+public void $UnitUnderTest$_$StateUnderTest$_$ExpectedResult$()
+{
+    // Arrange
+
+    // Act
+
+    // Assert
+}]]></Code>
+  </CodeTemplate>
+</CodeTemplates>
