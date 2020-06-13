@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>XToolkit</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>xcomt</Shortcut>
+      <_Description>Create XToolkit ViewModel Generic Command</_Description>
+      <TemplateType>Expansion</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="name">
+        <Default>my</Default>
+        <_ToolTip>Name of the backing field for command</_ToolTip>
+      </Variable>
+      <Variable name="type">
+        <Default>string</Default>
+        <_ToolTip>Type of the parameter passed into the command</_ToolTip>
+      </Variable>
+      <Variable name="pname">
+        <Default>My</Default>
+        <_ToolTip>Name of the Command Property</_ToolTip>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[$pname$Command = new RelayCommand<$type$>($pname$);
+
+public ICommand<$type$> $pname$Command { get; }
+
+private void $pname$($type$ arg)
+{
+    $end$
+}]]></Code>
+  </CodeTemplate>
+</CodeTemplates>
