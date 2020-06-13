@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>XToolkit</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>xvm</Shortcut>
+      <_Description>Create XToolkit ViewModel</_Description>
+      <TemplateType>Expansion</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="name" isIdentifier="true">
+        <Default>My</Default>
+        <_ToolTip>Name of the ViewModel class</_ToolTip>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[public class $name$ViewModel : ViewModelBase
+{
+    public $name$ViewModel()
+    {
+    }
+
+    public override void OnInitialize()
+    {
+        base.OnInitialize();
+    }
+
+    public override void OnAppearing()
+    {
+        base.OnAppearing();
+    }
+
+    public override void OnDisappearing()
+    {
+        base.OnDisappearing();
+    }
+}]]></Code>
+  </CodeTemplate>
+</CodeTemplates>
