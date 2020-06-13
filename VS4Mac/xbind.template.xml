@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>XToolkit</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>xbind</Shortcut>
+      <_Description>Create XToolkit Binding</_Description>
+      <TemplateType>Expansion</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="vmprop" isIdentifier="true">
+        <Default>MyName</Default>
+        <_ToolTip>Property Name</_ToolTip>
+      </Variable>
+      <Variable name="uictrl" isIdentifier="true">
+        <Default>MyLabel.Text</Default>
+        <_ToolTip>Property of UI control</_ToolTip>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[this.Bind(() => ViewModel.$vmprop$, () => $uictrl$);]]></Code>
+  </CodeTemplate>
+</CodeTemplates>
