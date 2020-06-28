@@ -10,7 +10,7 @@ You can import snippets by putting the files from the **VS4Mac** folder into `~/
 
 ### Rider
 
-TODO
+To import Snippets in Rider go to **Preferences > Manage Layers > Import from file**, select the **Live templates** checkbox and click OK. For more documentation see the [Rider documentation about Sharing Live Templates](https://www.jetbrains.com/help/rider/Sharing_Live_Templates.html).
 
 ## Snippets
 
