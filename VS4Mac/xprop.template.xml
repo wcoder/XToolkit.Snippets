@@ -27,7 +27,7 @@
 public $type$ $pname$
 {
     get => _$name$;
-    set => Set(ref _$name$, value);
+    private set => Set(ref _$name$, value);
 }]]></Code>
   </CodeTemplate>
 </CodeTemplates>
