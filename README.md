@@ -111,11 +111,6 @@ this.Bind(() => ViewModel.Title, () => TitleLabel.Text);
 [Fact]
 public void UnitUnderTest_StateUnderTest_ExpectedResult()
 {
-    // Arrange
-
-    // Act
-
-    // Assert
 }
 ```
 
