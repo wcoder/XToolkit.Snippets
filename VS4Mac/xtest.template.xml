@@ -23,11 +23,6 @@
     <Code><![CDATA[[Fact]
 public void $UnitUnderTest$_$StateUnderTest$_$ExpectedResult$()
 {
-    // Arrange
-
-    // Act
-
-    // Assert
 }]]></Code>
   </CodeTemplate>
 </CodeTemplates>

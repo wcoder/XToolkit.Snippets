@@ -104,12 +104,7 @@ private Task $pname$Async($type$ $arg$)
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C67072B1E326304E97BC51426EB38641/Text/@EntryValue">[Fact]
 public void $UnitUnderTest$_$StateUnderTest$_$ExpectedResult$()
 {
-    // Arrange
     $END$
-
-    // Act
-
-    // Assert
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C67072B1E326304E97BC51426EB38641/Field/=ExpectedResult/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C67072B1E326304E97BC51426EB38641/Field/=ExpectedResult/Expression/@EntryValue">constant("ExpectedResult")</s:String>
